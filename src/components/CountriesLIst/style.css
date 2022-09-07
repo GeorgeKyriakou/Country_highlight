@@ -1,0 +1,25 @@
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	list-style-type: none;
+	justify-content: center;
+}
+li {
+	margin: 8px;
+	cursor: pointer;
+}
+
+li.pink {
+	border-radius: 6px;
+	border: 1px solid #e3127e;
+	color: #e3127e;
+}
+
+.continent {
+	width: 80px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
